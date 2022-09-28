@@ -1,4 +1,4 @@
-baseUrl: ""
+baseUrl: "https://nectarition.github.io/HUGO-Sakura-svf/"
 languageCode: "ja-jp"
 title: "Synthesizer V Unofficial Festival 2023"
 theme: "sakura"
@@ -12,23 +12,9 @@ params:
     subTitle: "Synthesize V 音楽投稿祭"
     date: "2023年x月xx日～x月xx日"
     place: "ニコニコ動画内"
-    illustrator: "Mo.きづち"
+    illustrator: ""
   TwitterScreenName: "nct_kohatabe"
   GoogleAnalyticsMeasuringId: "G-NJN40E6S69"
-menu:
-  printing:
-    - identifier: "eikou"
-      name: "栄光"
-      url: ""
-      isDirect: true
-    - identifier: "eikou2"
-      name: "栄光２"
-      url: ""
-      isDirect: true
-    - identifier: "eikou3"
-      name: "栄光３"
-      url: ""
-      isDirect: true
 
 markup:
   defaultMarkdownHandler: "goldmark"
