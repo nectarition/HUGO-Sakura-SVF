@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Synthesizer V Unofficial Festival 2023</title>
-    <link>/categories/</link>
+    <link>https://nectarition.github.io/HUGO-Sakura-svf/categories/</link>
     <description>Recent content in Categories on Synthesizer V Unofficial Festival 2023</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language><atom:link href="https://nectarition.github.io/HUGO-Sakura-svf/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

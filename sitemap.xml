@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/categories/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/tags/</loc>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/contact/</loc>
   </url><url>
-    <loc>/privacy-policy/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/privacy-policy/</loc>
   </url><url>
-    <loc>/rule/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/rule/</loc>
   </url><url>
-    <loc>/detail/</loc>
+    <loc>https://nectarition.github.io/HUGO-Sakura-svf/detail/</loc>
   </url>
 </urlset>
