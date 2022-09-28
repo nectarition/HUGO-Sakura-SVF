@@ -153,13 +153,13 @@ table {
 
 .keyVisual {
   height: 400px;
-  background-image: url(/kv-v.png);
+  background-image: url(kv-v.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 
   @media screen and (max-width: 1000px) {
-    background-image: url(/kv-h.png);
+    background-image: url(kv-h.png);
     background-position: center 25%;
   }
 
