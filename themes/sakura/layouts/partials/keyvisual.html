@@ -1,5 +1,5 @@
 <header class="keyVisual {{ if eq .RelPermalink "/" }}keyVisual_hero{{ end }}">
-{{ if eq .RelPermalink "/" }}
+{{ if eq .Permalink .Site.BaseURL }}
   <div class="keyVisual_wrap">
     <div class="keyVisual_card">
       <div class="keyVisual_card_logo">
