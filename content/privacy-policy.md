@@ -1,6 +1,6 @@
 ---
 title: "プライバシーポリシー"
-draft: true
+draft: false
 menuDisplay: false
 ---
 

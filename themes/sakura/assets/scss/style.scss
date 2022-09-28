@@ -1,6 +1,6 @@
-$keycolor: hsl(345, 77%, 65%);
+$keycolor: hsl(117, 45%, 44%);
 @function keycolor($luminance) {
-  @return hsl(345, 77%, 65% + $luminance);
+  @return hsl(117, 45%, 44% + $luminance);
 }
 
 @mixin mq {
