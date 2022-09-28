@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{- with .TableOfContents -}}
+<h2>目次</h2>
+{{- . -}}
+{{- end -}}
+{{ .Content }}
+{{ end }}

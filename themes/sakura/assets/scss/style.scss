@@ -1,0 +1,441 @@
+$keycolor: hsl(345, 77%, 65%);
+@function keycolor($luminance) {
+  @return hsl(345, 77%, 65% + $luminance);
+}
+
+@mixin mq {
+  @media screen and (max-width: 1000px) {
+    @content;
+  }
+}
+
+html,
+body {
+  background-color: #efefef;
+  font-smooth: antialiased;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  border-top: 10px solid keycolor(0%);
+  font-family: "Koruri";
+}
+
+a {
+  color: keycolor(-10%);
+  text-decoration: underline;
+  font-weight: bold;
+
+  &:hover {
+    color: keycolor(-25%);
+  }
+}
+
+p,
+ul,
+ol {
+  line-height: 1.75em;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  display: inline-block;
+  padding: 0 5px;
+  background-color: keycolor(0%);
+  color: #ffffff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: keycolor(0%);
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 1em;
+  &:not(:last-child),
+  :not(li) > & {
+    padding: 10px;
+  }
+
+  background-color: keycolor(30%);
+
+  li {
+    p {
+      display: inline;
+    }
+  }
+}
+ul {
+  li::before {
+    font-weight: bold;
+    color: keycolor(0%);
+    content: "・";
+  }
+}
+ol {
+  li {
+    list-style: decimal;
+    list-style-position: inside;
+
+    &::marker {
+      font-weight: bold;
+      color: keycolor(0%);
+    }
+  }
+}
+
+footer {
+  padding: 20px;
+  background-color: #404040;
+  color: #ffffff;
+}
+
+table {
+  width: auto;
+  border-collapse: collapse;
+  text-align: left;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  tr {
+    background-color: #fafafa;
+
+    td:first-child {
+      background-color: keycolor(30%);
+    }
+
+    &:nth-child(2n) {
+      background-color: #efefef;
+      td:first-child {
+        background-color: keycolor(25%);
+      }
+    }
+    &:last-child {
+      border-bottom: 4px solid #dfdfdf;
+    }
+  }
+
+  th,
+  td {
+    padding: 5px 10px;
+  }
+  th {
+    background-color: keycolor(0%);
+    color: #ffffff;
+  }
+
+  thead tr {
+    border-top: solid 4px keycolor(0%);
+    border-bottom: none !important;
+
+    th,
+    td {
+      background-color: keycolor(5%) !important;
+    }
+
+    th:empty {
+      display: none;
+    }
+  }
+}
+
+.keyVisual {
+  height: 400px;
+  background-image: url(/kv-v.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+  @media screen and (max-width: 1000px) {
+    background-image: url(/kv-h.png);
+    background-position: center 25%;
+  }
+
+  &_hero {
+    height: 75vh;
+    position: relative;
+    @media screen and (max-width: 1000px) {
+    }
+  }
+
+  &_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    background-color: #ffffff88;
+
+    @media screen and (max-width: 1000px) {
+      height: auto;
+      padding: 20px;
+      bottom: 0;
+      background-color: #ffffffdd;
+    }
+  }
+
+  &_card {
+    display: grid;
+    width: auto;
+
+    padding: 40px;
+    background-color: #ffffff88;
+
+    grid-template-columns: 192px 1fr;
+    gap: 40px;
+
+    &_logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+    &_meta {
+      display: flex;
+      flex-flow: column;
+      font-size: 1.25em;
+      font-weight: bold;
+
+      &_subTitle,
+      &_title,
+      &_date,
+      &_place,
+      &_illustrator {
+        display: inline-block;
+        width: auto;
+      }
+
+      &_title,
+      &_date,
+      &_place {
+        // padding: 5px;
+        font-size: 1.25em;
+        font-weight: bold;
+      }
+    }
+
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: none;
+      grid-template-rows: 64px auto;
+      background-color: transparent;
+
+      gap: 10px;
+      padding: 10px;
+
+      &_logo {
+        display: block;
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
+      &_meta {
+        font-size: 1rem;
+
+        &_subTitle,
+        &_illustrator {
+          .marker {
+            background-image: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+#TableOfContents {
+  padding: 10px;
+  background-color: keycolor(30%);
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  & ul {
+    background-color: transparent;
+  }
+
+  & > ul {
+    padding: 0;
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+.wrap {
+  padding: 20px 12.5%;
+  @include mq {
+    padding: 0;
+  }
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  grid-template-rows: 100%;
+  gap: 10px;
+
+  .main,
+  .sidebar {
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #e0e0e0;
+  }
+
+  @include mq {
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+    gap: 5px;
+  }
+}
+
+.nav {
+  padding: 0 10px;
+  text-align: center;
+
+  background-color: keycolor(0%);
+
+  a {
+    display: inline-block;
+    padding: 10px;
+    padding-top: calc(10px + 4px);
+    border-bottom: 4px solid transparent;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+
+    transition: background-color 0.25s;
+
+    &:hover {
+      background-color: keycolor(5%);
+      cursor: pointer;
+    }
+  }
+
+  &_active {
+    border-bottom: 4px solid keycolor(15%) !important;
+  }
+}
+
+.noneGap {
+  margin-bottom: 0;
+}
+.noBreak {
+  display: inline-block;
+}
+
+.navMenuIcon,
+.navMenuText {
+  vertical-align: middle;
+}
+
+.side {
+  .menu {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &_item {
+      padding: 10px;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      background-color: #efefef;
+
+      &_badge {
+        margin-bottom: 5px;
+      }
+      &_banner {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+
+    &_link {
+      background-color: keycolor(0%);
+      a {
+        color: #ffffff;
+      }
+
+      &_twitter {
+        background-color: #1d9bf0;
+      }
+    }
+  }
+}
+
+@function markerColor($color) {
+  @return linear-gradient(transparent 70%, $color 0%);
+}
+
+.marker {
+  padding: 0 0.25em;
+
+  &_gray {
+    background-image: markerColor(hsl(0, 0%, 75%));
+  }
+  &_red {
+    background-image: markerColor(hsl(345, 77%, 75%));
+  }
+  &_yellow {
+    background-image: markerColor(hsl(60, 50%, 60%));
+  }
+  &_purple {
+    background-image: markerColor(hsl(275, 35%, 60%));
+  }
+  &_green {
+    background-image: markerColor(hsl(135, 35%, 60%));
+  }
+  &_blue {
+    background-image: markerColor(hsl(225, 35%, 60%));
+  }
+}
+
+.label {
+  display: inline-block;
+  padding: 5px;
+  color: #ffffff;
+
+  &_gray {
+    background-color: hsl(0, 0%, 80%);
+    color: #000000;
+  }
+  &_red {
+    background-color: hsl(345, 60%, 65%);
+  }
+  &_yellow {
+    background-color: hsl(60, 50%, 60%);
+  }
+  &_purple {
+    background-color: hsl(275, 40%, 60%);
+  }
+  &_green {
+    background-color: hsl(135, 50%, 45%);
+  }
+  &_blue {
+    background-color: hsl(225, 35%, 50%);
+  }
+}

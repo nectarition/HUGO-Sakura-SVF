@@ -1,0 +1,37 @@
+baseUrl: ""
+languageCode: "ja-jp"
+title: "第二回小樽潮風高校文化祭「しおばな祭」"
+theme: "sakura"
+params:
+  author: "Nectarition"
+  since: 2022
+  event:
+    logo: "/logo.svg"
+    genre: "第二回小樽潮風高校文化祭"
+    name: "しおばな祭"
+    subTitle: "TOKYO6キャラクターオンリーイベント"
+    date: "2023年11月4日(土)"
+    place: "みらい館大明 3階 308室＠東京･池袋"
+    illustrator: "Mo.きづち"
+  TwitterScreenName: "nct_kohatabe"
+  GoogleAnalyticsMeasuringId: "G-NJN40E6S69"
+menu:
+  printing:
+    - identifier: "eikou"
+      name: "栄光"
+      url: ""
+      isDirect: true
+    - identifier: "eikou2"
+      name: "栄光２"
+      url: ""
+      isDirect: true
+    - identifier: "eikou3"
+      name: "栄光３"
+      url: ""
+      isDirect: true
+
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    renderer:
+      unsafe: true

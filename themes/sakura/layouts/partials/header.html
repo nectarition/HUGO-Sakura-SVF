@@ -1,0 +1,10 @@
+<nav class="nav">
+  {{ $pages := where .Site.AllPages "Params.menuDisplay" true }}
+  {{ range ($pages.ByParam "menuOrder") }}
+    <a href="{{ .RelPermalink }}" class="{{ if eq .RelPermalink $.Page.RelPermalink }}nav_active{{ end }}">
+      <span class="navMenuIcon material-symbols-outlined">&#x{{ .Params.menuIcon }};</span>
+      <span class="navMenuText">{{ if isset .Params "menutitle" }} {{ .Params.menuTitle }} {{ else }} {{ .Title }} {{ end }}</span>
+    </a>
+  {{ end }}
+  </ul>
+</nav>
