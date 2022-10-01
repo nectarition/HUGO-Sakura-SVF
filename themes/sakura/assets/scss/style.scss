@@ -160,7 +160,7 @@ table {
 
   @media screen and (max-width: 1000px) {
     background-image: url(kv-h.png);
-    background-position: center 25%;
+    background-position: center;
   }
 
   &_hero {
@@ -178,13 +178,15 @@ table {
     justify-content: center;
     position: absolute;
 
-    background-color: #ffffff88;
+    background-color: #ffffff22;
 
     @media screen and (max-width: 1000px) {
       height: auto;
       padding: 20px;
       bottom: 0;
-      background-color: #ffffffdd;
+      background-color: #ffffff22;
+      color: #ffffff;
+      backdrop-filter: blur(10px);
     }
   }
 
@@ -194,6 +196,7 @@ table {
 
     padding: 40px;
     background-color: #ffffff88;
+    backdrop-filter: blur(10px);
 
     grid-template-columns: 192px 1fr;
     gap: 40px;
@@ -236,6 +239,7 @@ table {
       grid-template-columns: none;
       grid-template-rows: 64px auto;
       background-color: transparent;
+      backdrop-filter: none;
 
       gap: 10px;
       padding: 10px;
