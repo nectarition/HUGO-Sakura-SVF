@@ -2,25 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Synthesizer V Unofficial Festival 2023</title>
-    <link>https://nectarition.github.io/HUGO-Sakura-SVF/</link>
+    <link>https://synthesizer.jp/</link>
     <description>Recent content on Synthesizer V Unofficial Festival 2023</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://nectarition.github.io/HUGO-Sakura-SVF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>event</title>
-      <link>https://nectarition.github.io/HUGO-Sakura-SVF/event/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nectarition.github.io/HUGO-Sakura-SVF/event/</guid>
-      <description>Virtual Voice Harmonyでのピックアップ企画 コンピレーションアルバムの制作 </description>
-    </item>
-    
+    <language>ja-jp</language><atom:link href="https://synthesizer.jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>お問い合わせ</title>
-      <link>https://nectarition.github.io/HUGO-Sakura-SVF/contact/</link>
+      <link>https://synthesizer.jp/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nectarition.github.io/HUGO-Sakura-SVF/contact/</guid>
+      <guid>https://synthesizer.jp/contact/</guid>
       <description>開催に関するすべてのお問い合わせは、主催である「Nectarition Blossom」が受け付けます。
 会場や関係各所への直接的なお問い合わせはおやめください。
 Twitterでのお問い合わせ イベント運営アカウントにて受け付けます。
@@ -31,10 +22,10 @@ nctbls@nectarition.jp</description>
     
     <item>
       <title>プライバシーポリシー</title>
-      <link>https://nectarition.github.io/HUGO-Sakura-SVF/privacy-policy/</link>
+      <link>https://synthesizer.jp/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nectarition.github.io/HUGO-Sakura-SVF/privacy-policy/</guid>
+      <guid>https://synthesizer.jp/privacy-policy/</guid>
       <description>Googleアナリティクス 当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。
 このGoogleアナリティクスはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。
 この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。
@@ -44,10 +35,10 @@ Googleアナリティクスサービス利用規約 Googleポリシーと規約 
     
     <item>
       <title>レギュレーション</title>
-      <link>https://nectarition.github.io/HUGO-Sakura-SVF/rule/</link>
+      <link>https://synthesizer.jp/rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nectarition.github.io/HUGO-Sakura-SVF/rule/</guid>
+      <guid>https://synthesizer.jp/rule/</guid>
       <description>レギュレーション Synthesizer Vを使用して制作された楽曲である。 Synthesizer V Lite版も可とする。 VOCALOIDやUTAUなど、Synthesizer V以外のライブラリを使用することはお控えください。 MVの構成形式(イラスト, 歌詞のみ, MMD等)は自由。 ニコニコ動画に規定のタグ(後述)をタグロックして投稿する。 フォームに動画のURL、各連動企画への参加の可否を入力し、送信する。 連動企画について Virtual Voice Harmonyでのピックアップ企画 2023年1月29日に秋葉原で行われるCeVIO・SynthesizerV・NEUTRINO or トーク系ソフト　キャラクター関連楽曲中心のファンメイドのDJイベント「Virtual Voice Harmony(ボイハモ)」にて、SVF2023に参加いただく楽曲をピックアップいたします。 楽曲のピックアップ企画に参加される方については、事前にDJイベントで演奏する音源をご提出いただきます。 なお、選曲についてはボイハモにDJとして参加される方におまかせいたしますので、すべての楽曲がピックアップされるとは限りませんので、予めご了承ください。 詳しくはこちらをご覧ください。 SVF2023コンピレーションアルバムへの収録 「SVF2023オリジナル曲」タグが付いた楽曲の中から、ライブラリ企画元様にご選出いただき、コンピレーションアルバム(ダウンロードカード形式)を制作します。 選出された楽曲の制作者様には、コンピレーションアルバムのダウンロードカードのほか、記念品を進呈させていただく予定です。 コンピレーションアルバムは、ダウンロードカード形式で制作し、BOOTHでの販売を予定しております。 詳しくはこちらをご覧ください。 参加方法 Synthesizer Vを使った曲を制作する。 イベント期間内にニコニコ動画へ後述(「動画に付けるタグ」)のタグをつけて投稿する。 投稿報告フォームから動画のURL、各連動企画への参加の可否を送信する。 動画に付けるタグ 必須タグ SynthesizerV Synthesizer V発売元(株式会社AHS様)が推奨するタグです。 synthv や Synthesizer_V ではありません。 イベントのタグ SVF2023のタグです。
 投稿する楽曲に該当するタグを付けてください。
 SVF2023オリジナル曲 SVF2023カバー曲 各ライブラリのタグ 現在各ライブラリ企画元様と調整中です。
@@ -55,11 +46,20 @@ SVF2023オリジナル曲 SVF2023カバー曲 各ライブラリのタグ 現在
     </item>
     
     <item>
-      <title>開催概要</title>
-      <link>https://nectarition.github.io/HUGO-Sakura-SVF/detail/</link>
+      <title>連動企画</title>
+      <link>https://synthesizer.jp/event/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nectarition.github.io/HUGO-Sakura-SVF/detail/</guid>
+      <guid>https://synthesizer.jp/event/</guid>
+      <description>Virtual Voice Harmonyでのピックアップ企画 コンピレーションアルバムの制作 </description>
+    </item>
+    
+    <item>
+      <title>開催概要</title>
+      <link>https://synthesizer.jp/detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://synthesizer.jp/detail/</guid>
       <description>概要 イベント名 Synthesizer V Unofficial Festival 2023 イベント内容 Synthesizer Vを使用した楽曲の投稿祭。 開催日時 2023年2月10日(金)〜12日(日) プラットフォーム ニコニコ動画 ハッシュタグ #synthv #svf2023 スケジュール 2023/01/xx Virtual Voice Harmony ピックアップ企画 締め切り 2023/02/10~12 イベント開催 </description>
     </item>
     
