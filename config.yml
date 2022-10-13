@@ -1,23 +1,23 @@
-baseUrl: "https://nectarition.github.io/HUGO-Sakura-SVF/"
-languageCode: "ja-jp"
-title: "Synthesizer V Unofficial Festival 2023"
-theme: "sakura"
+baseUrl: 'https://synthesizer.jp/'
+languageCode: 'ja-jp'
+title: 'Synthesizer V Unofficial Festival 2023'
+theme: 'sakura'
 params:
-  author: "Nectarition"
+  author: 'Nectarition'
   since: 2022
   event:
-    logo: "/logo.svg"
-    genre: ""
-    name: "Synthesizer V Unofficial Festival 2023"
-    subTitle: "Synthesize V 音楽投稿祭"
-    date: "2023年x月xx日～x月xx日"
-    place: "ニコニコ動画内"
-    illustrator: ""
-  TwitterScreenName: "nct_kohatabe"
-  GoogleAnalyticsMeasuringId: "G-NJN40E6S69"
+    logo: '/logo.svg'
+    genre: ''
+    name: 'Synthesizer V Unofficial Festival 2023'
+    subTitle: 'Synthesize V 音楽投稿祭'
+    date: '2023年2月10日～12日'
+    place: 'ニコニコ動画内'
+    illustrator: ''
+  TwitterScreenName: 'nct_synthvfes'
+  GoogleAnalyticsMeasuringId: 'G-NJN40E6S69'
 
 markup:
-  defaultMarkdownHandler: "goldmark"
+  defaultMarkdownHandler: 'goldmark'
   goldmark:
     renderer:
       unsafe: true
