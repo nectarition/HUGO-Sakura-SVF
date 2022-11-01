@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Synthesizer V Unofficial Festival 2023</title>
-    <link>https://synthesizerv.jp/</link>
+    <link>https://synthvfes.jp/</link>
     <description>Recent content on Synthesizer V Unofficial Festival 2023</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://synthesizerv.jp/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language><atom:link href="https://synthvfes.jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>お問い合わせ</title>
-      <link>https://synthesizerv.jp/contact/</link>
+      <link>https://synthvfes.jp/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://synthesizerv.jp/contact/</guid>
+      <guid>https://synthvfes.jp/contact/</guid>
       <description>開催に関するすべてのお問い合わせは、主催である「Nectarition」が受け付けます。
 関係各所への直接的なお問い合わせはおやめください。
 Twitterでのお問い合わせ イベント運営アカウントにて受け付けます。
@@ -22,10 +22,10 @@ info@nectarition.jp</description>
     
     <item>
       <title>プライバシーポリシー</title>
-      <link>https://synthesizerv.jp/privacy-policy/</link>
+      <link>https://synthvfes.jp/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://synthesizerv.jp/privacy-policy/</guid>
+      <guid>https://synthvfes.jp/privacy-policy/</guid>
       <description>Googleアナリティクス 当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。
 このGoogleアナリティクスはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。
 この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。
@@ -35,10 +35,10 @@ Googleアナリティクスサービス利用規約 Googleポリシーと規約 
     
     <item>
       <title>レギュレーション</title>
-      <link>https://synthesizerv.jp/rule/</link>
+      <link>https://synthvfes.jp/rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://synthesizerv.jp/rule/</guid>
+      <guid>https://synthvfes.jp/rule/</guid>
       <description>レギュレーション Synthesizer Vを使用して制作された楽曲である。 Synthesizer V Lite版も可とする。 VOCALOIDやUTAUなど、Synthesizer V以外のライブラリを使用することはお控えください。 MVの構成形式(イラスト, 歌詞のみ, MMD等)は自由。 ニコニコ動画に規定のタグ(後述)をタグロックして投稿する。 フォームに動画のURL、各連動企画への参加の可否を入力し、送信する。 参加方法 Synthesizer Vを使った曲を制作する。 イベント期間内にニコニコ動画へ後述(「動画に付けるタグ」)のタグをつけて投稿する。 投稿報告フォームから動画のURL、各連動企画への参加の可否を送信する。 よくある質問 こちらに掲載しております。
 動画に付けるタグ 必須タグ SynthesizerV Synthesizer V発売元(株式会社AHS様)が推奨するタグです。 synthv や Synthesizer_V ではありません。 イベントのタグ SVF2023のタグです。
 投稿する楽曲に該当するタグを付けてください。
@@ -48,19 +48,19 @@ SVF2023オリジナル曲 SVF2023カバー曲 各ライブラリのタグ 現在
     
     <item>
       <title>連動企画</title>
-      <link>https://synthesizerv.jp/event/</link>
+      <link>https://synthvfes.jp/event/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://synthesizerv.jp/event/</guid>
+      <guid>https://synthvfes.jp/event/</guid>
       <description>Virtual Voice Harmonyでのピックアップ企画 企画概要 2023年1月29日に秋葉原で行われるCeVIO・SynthesizerV・NEUTRINO or トーク系ソフト　キャラクター関連楽曲中心のファンメイドのDJイベント「Virtual Voice Harmony(ボイハモ)」にて、SVF2023に参加いただく楽曲をピックアップいたします。 楽曲のピックアップ企画に参加される方については、事前にDJイベントで演奏する音源をご提出いただきます。 なお、選曲についてはボイハモにDJとして参加される方におまかせいたしますので、すべての楽曲がピックアップされるとは限りませんので、予めご了承ください。 期限 楽曲提出期限: 2023年1月9日 提出形式 ファイル形式: wavもしくはmp3 固定ビットレート: 320kbps 参加方法 楽曲を制作する DJイベントで演奏するための音源を出力する 下記フォームに必要事項を入力し、2で用意した音源と一緒に送信する </description>
     </item>
     
     <item>
       <title>開催概要</title>
-      <link>https://synthesizerv.jp/detail/</link>
+      <link>https://synthvfes.jp/detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://synthesizerv.jp/detail/</guid>
+      <guid>https://synthvfes.jp/detail/</guid>
       <description>概要 イベント名 Synthesizer V Unofficial Festival 2023 略称 SVF2023 ハッシュタグ #svf2023 イベント内容 Synthesizer Vを使用した楽曲の投稿祭。 開催日時 2023年2月 プラットフォーム ニコニコ動画 ハッシュタグ #synthv #svf2023 スケジュール 2023/01/09 Virtual Voice Harmony ピックアップ企画 締め切り 2023/01/29 Virtual Voice Harmony 開催 2023/02 SVF2023開催 </description>
     </item>
     
