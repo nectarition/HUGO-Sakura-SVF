@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language><atom:link href="https://synthvfes.jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>tags</title>
+      <link>https://synthvfes.jp/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://synthvfes.jp/tags/</guid>
+      <description>音声合成エンジンとしてのタグ 「SynthesizerV」 Synthesizer_Vやsynthvではありません。 #synthv はTwitterでのハッシュタグです。 イベントのタグ 「SVF2023オリジナル曲」 「SVF2023カバー曲」 「SVF2023リミックス曲」 キャラクターのタグ AHS 弦巻マキ: 「弦巻マキ」 Dreamtonics社製品のタグは現在確認中です。 TOKYO6 オリジナル曲 「小春六花オリジナル曲」「夏色花梨オリジナル曲」「花隈千冬オリジナル曲」 カバー曲 「SynthesizerVカバー曲」に加え、各キャラクターのタグを付ける 小春六花: 「小春六花」 夏色花梨: 「夏色花梨」 花隈千冬: 「花隈千冬」 京町セイカ 「京町セイカ」 鬼っ子ハンターついなちゃん 「歌ついなちゃん」 琴葉茜・葵 「Synthesizer_V_琴葉茜・葵」 </description>
+    </item>
+    
+    <item>
       <title>お問い合わせ</title>
       <link>https://synthvfes.jp/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
