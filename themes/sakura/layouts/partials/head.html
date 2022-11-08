@@ -13,6 +13,11 @@ end }}
 />
 <link rel="stylesheet" href="https://koruri.chillout.chat/koruri.css" />
 
+<meta
+  name="description"
+  content="{{ if not .Site.Params.disableSummary }} {{ .Summary | safeHTML }} {{ end }}"
+/>
+
 <meta property="og:title" content="{{ $title }}{{ .Site.Title }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:image" content="{{ .Site.BaseURL }}icon.png" />
@@ -47,13 +52,13 @@ end }}
   src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsMeasuringId}}"
 ></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || []
   function gtag() {
-    dataLayer.push(arguments);
+    dataLayer.push(arguments)
   }
-  gtag("js", new Date());
+  gtag('js', new Date())
 
-  gtag("config", "{{ .Site.Params.GoogleAnalyticsMeasuringId}}");
+  gtag('config', '{{ .Site.Params.GoogleAnalyticsMeasuringId}}')
 </script>
 
 <title>{{ $title }}{{ .Site.Title }}</title>
