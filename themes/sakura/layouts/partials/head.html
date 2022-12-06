@@ -11,7 +11,6 @@ end }}
   rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0"
 />
-<link rel="stylesheet" href="https://koruri.chillout.chat/koruri.css" />
 
 <meta
   name="description"
@@ -52,13 +51,13 @@ end }}
   src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsMeasuringId}}"
 ></script>
 <script>
-  window.dataLayer = window.dataLayer || []
+  window.dataLayer = window.dataLayer || [];
   function gtag() {
-    dataLayer.push(arguments)
+    dataLayer.push(arguments);
   }
-  gtag('js', new Date())
+  gtag("js", new Date());
 
-  gtag('config', '{{ .Site.Params.GoogleAnalyticsMeasuringId}}')
+  gtag("config", "{{ .Site.Params.GoogleAnalyticsMeasuringId}}");
 </script>
 
 <title>{{ $title }}{{ .Site.Title }}</title>
