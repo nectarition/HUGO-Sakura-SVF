@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 $keycolor: hsl(117, 45%, 44%);
 @function keycolor($luminance) {
   @return hsl(117, 45%, 44% + $luminance);
@@ -20,7 +22,7 @@ body {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   border-top: 10px solid keycolor(0%);
-  font-family: "Koruri";
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
