@@ -132,6 +132,7 @@ table {
   th,
   td {
     padding: 5px 10px;
+    overflow-wrap: anywhere;
   }
   th {
     background-color: keycolor(0%);
